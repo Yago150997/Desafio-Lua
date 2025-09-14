@@ -34,7 +34,12 @@ local function  getProgressBar(attribute)
     return result
 end
 
-print("======================================")
+-- Função divisor de cartão
+local function barraCartao()
+    print("======================================")
+end
+
+print(barraCartao())
 print("|" .. monsterName)
 print("|" .. description)
 print("|")
@@ -46,4 +51,5 @@ print("|    Defesa:       " .. getProgressBar(defenseAttribute))
 print("|    Vitalidade:   " .. getProgressBar(lifeAttribute))
 print("|    Velocidade:   " .. getProgressBar(speedAttribue))
 print("|    Inteligência: " .. getProgressBar(inteligenceAttribute))
-print("======================================")
+print()
+print(barraCartao())
